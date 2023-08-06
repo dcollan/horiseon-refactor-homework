@@ -24,6 +24,9 @@ and adding necessary elements in ways that the website will still appear the sam
 
 ![image](https://github.com/dcollan/horiseon-refactor-homework/assets/66268567/f1eda987-1745-4aea-959f-ecab75074abe)
 
+## Link to Website
+https://dcollan.github.io/horiseon-refactor-homework/
+
 ## How to Run
 1) Run 'git clone (repo link)' on Git Bash'
 2) CD into project directory
