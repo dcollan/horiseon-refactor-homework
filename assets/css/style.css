@@ -108,7 +108,7 @@ p {
 
 
 
-.sos {
+.info {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -118,13 +118,13 @@ p {
 }
 
 
-.sos img {
+.info img {
     max-height: 200px;
 }
 
 
 
-.sos h2 {
+.info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
