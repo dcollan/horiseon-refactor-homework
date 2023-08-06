@@ -1,15 +1,18 @@
 /*Follow DRY (Don't Repeat Yourself)*/
 
+/* Customizes visual appearance for all elements in the page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets background color for main body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Adjusts colors for main header element, changes font, and adds interior spacing between content and border of element */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +20,18 @@ header {
     color: #ffffff;
 }
 
+/* Modifies 'Horiseon' title of page, changing its font size and arrangement */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes color for 'seo' characters within 'Horiseon' title */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Formats div element to add interior spacing and proper alignment to enclose unordered list elements */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,24 +40,29 @@ header div {
     font-size: 20px;
 }
 
+/* Sets unordered list standards for each element's positioning */
 header ul {
     list-style-type: none;
 }
 
+/* Adds spacing to the left of each element apart from their image counterparts */
 header li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Sets color for anchor tags meant to navigate quickly to desired part of the page */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Changes font size for descriptions per content element */
 p {
     font-size: 16px;
 }
 
+/* Formats main advertising image's height, width, spacing, and positioning to better appeal to audience */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,22 +72,26 @@ p {
     background-position: center;
 }
 
+/* Places image to the left of description */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Places image to the right of description */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Establishes width and a slight shift to the right for all elements in the content block */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Creates a more visual appeal to users navigating the benefit block */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,26 +103,26 @@ p {
     background-color: #2589bd;
 }
 
+/* Changes text color for each benefit and adds spacing */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-
+/* Centers the title for each benefit element and adds spacing */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/* Adjusts icon appearance per benefit */
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-
+/* Improves styling for each description in the content section */
 .info {
     margin-bottom: 20px;
     padding: 50px;
@@ -117,20 +132,18 @@ p {
     color: #ffffff;
 }
 
-
+/* Sets image height for each content's description */
 .info img {
     max-height: 200px;
 }
 
-
-
+/* Sets font size for subheadings and enables spacing */
 .info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
-
+/* Changes font style, alignment, and padding for footer elements */
 footer {
     padding: 30px;
     clear: both;
@@ -138,6 +151,7 @@ footer {
     text-align: center;
 }
 
+/* Adjusts font size for footer heading */
 footer h2 {
     font-size: 20px;
 }
